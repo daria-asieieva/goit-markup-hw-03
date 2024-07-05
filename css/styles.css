@@ -27,6 +27,19 @@ img {
 a {
     text-decoration: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 
   button {
@@ -159,7 +172,7 @@ margin: 0 auto;
 
 .quality {
    
-    
+    padding: 120px 0;
     
 }
 .quality-container {
@@ -172,6 +185,7 @@ margin: 0 auto;
         flex-direction: row;
         justify-content: space-between;
         gap: 24px;
+        
     
 }
 
@@ -203,6 +217,7 @@ color: #434455;
 
 .team {
     background: #f4f4fd;
+    padding: 120px 0
 }
 .team-container {
     display: flex;
